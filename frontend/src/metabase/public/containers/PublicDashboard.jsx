@@ -121,9 +121,9 @@ class PublicDashboard extends Component {
         parameters={parameters}
         parameterValues={parameterValues}
         setParameterValue={this.props.setParameterValue}
-        actionButtons={
-          buttons.length > 0 && <div className="flex">{buttons}</div>
-        }
+        //         actionButtons={
+        //           buttons.length > 0 && <div className="flex">{buttons}</div>
+        //         }
       >
         <LoadingAndErrorWrapper
           className={cx("Dashboard p1 flex-full", {

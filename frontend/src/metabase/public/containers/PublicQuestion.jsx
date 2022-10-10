@@ -194,7 +194,7 @@ class PublicQuestion extends Component {
       <EmbedFrame
         name={card && card.name}
         description={card && card.description}
-        actionButtons={actionButtons}
+        //         actionButtons={actionButtons}
         parameters={initialized ? parameters : []}
         parameterValues={parameterValues}
         setParameterValue={this.setParameterValue}

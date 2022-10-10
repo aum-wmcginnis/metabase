@@ -252,19 +252,19 @@ export default class DashCard extends Component {
           isMobile={isMobile}
           gridSize={gridSize}
           totalNumGridCols={this.props.totalNumGridCols}
-          actionButtons={
-            isEmbed ? (
-              <QueryDownloadWidget
-                className="m1 text-brand-hover text-light"
-                classNameClose="hover-child"
-                card={dashcard.card}
-                params={parameterValuesBySlug}
-                dashcardId={dashcard.id}
-                token={dashcard.dashboard_id}
-                icon="download"
-              />
-            ) : null
-          }
+          //           actionButtons={
+          //             isEmbed ? (
+          //               <QueryDownloadWidget
+          //                 className="m1 text-brand-hover text-light"
+          //                 classNameClose="hover-child"
+          //                 card={dashcard.card}
+          //                 params={parameterValuesBySlug}
+          //                 dashcardId={dashcard.id}
+          //                 token={dashcard.dashboard_id}
+          //                 icon="download"
+          //               />
+          //             ) : null
+          //           }
           onUpdateVisualizationSettings={
             this.props.onUpdateVisualizationSettings
           }
